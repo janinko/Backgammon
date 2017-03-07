@@ -83,6 +83,7 @@ public class GameDice {
 	 * 
 	 * @param number
 	 *            Value being checked against dice
+	 * @throws IllegalArgumentException number cannot be used
 	 */
 	public void takeDice(int number) {
 		if (diceOneUses > 0 && diceOne == number) {
